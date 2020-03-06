@@ -1,7 +1,36 @@
 .App {
   text-align: center;
-}
 
+}
+.top{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin: 40px;
+}
+  .in{
+    
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 40px;
+  padding: 20px;
+}
+.out{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-right: 850px;
+}
+#start{
+  padding-right: 121px;
+  font-size: 25px;
+  color: gray;
+}
+#hello{
+  font-size: 20px;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
