@@ -4,7 +4,7 @@ import './second.css';
 
  const Second=({colorProp,icon,cont,border,head,headColor})=>{
     return(
-        <div className="two" style={{background:colorProp,border,head}}>
+        <div className="two" style={{border,head}}>
         
         <img src={icon}></img>
          <h3 style={{color:headColor}}>{head}</h3>
